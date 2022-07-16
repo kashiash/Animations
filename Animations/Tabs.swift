@@ -37,6 +37,10 @@ struct Tabs: View {
                 .tabItem {
                     Label("Gestures", systemImage: "square.and.pencil")
                 }
+            HidingShowingView()
+                .tabItem {
+                    Label("Showing", systemImage: "star")
+                }
             
         }
     }
