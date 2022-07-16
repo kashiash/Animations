@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A32470BB2882B60600FF532E /* SwiftUIGesturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32470BA2882B60600FF532E /* SwiftUIGesturesView.swift */; };
 		A3DE3A612880B3BB00FAEB52 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE3A602880B3BB00FAEB52 /* AnimationsApp.swift */; };
 		A3DE3A632880B3BB00FAEB52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE3A622880B3BB00FAEB52 /* ContentView.swift */; };
 		A3DE3A652880B3BD00FAEB52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DE3A642880B3BD00FAEB52 /* Assets.xcassets */; };
 		A3DE3A682880B3BD00FAEB52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3DE3A672880B3BD00FAEB52 /* Preview Assets.xcassets */; };
+		A3DE3A8B2882A39800FAEB52 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE3A8A2882A39800FAEB52 /* SwiftUIView.swift */; };
+		A3DE3A8D2882A4FC00FAEB52 /* SwiftUIViewExplicit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE3A8C2882A4FC00FAEB52 /* SwiftUIViewExplicit.swift */; };
+		A3DE3A8F2882A6EF00FAEB52 /* Tabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DE3A8E2882A6EF00FAEB52 /* Tabs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A32470BA2882B60600FF532E /* SwiftUIGesturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIGesturesView.swift; sourceTree = "<group>"; };
 		A3DE3A5D2880B3BB00FAEB52 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DE3A602880B3BB00FAEB52 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
 		A3DE3A622880B3BB00FAEB52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A3DE3A642880B3BD00FAEB52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3DE3A672880B3BD00FAEB52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A3DE3A8A2882A39800FAEB52 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		A3DE3A8C2882A4FC00FAEB52 /* SwiftUIViewExplicit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewExplicit.swift; sourceTree = "<group>"; };
+		A3DE3A8E2882A6EF00FAEB52 /* Tabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				A3DE3A602880B3BB00FAEB52 /* AnimationsApp.swift */,
+				A3DE3A8A2882A39800FAEB52 /* SwiftUIView.swift */,
 				A3DE3A622880B3BB00FAEB52 /* ContentView.swift */,
+				A3DE3A8C2882A4FC00FAEB52 /* SwiftUIViewExplicit.swift */,
+				A32470BA2882B60600FF532E /* SwiftUIGesturesView.swift */,
+				A3DE3A8E2882A6EF00FAEB52 /* Tabs.swift */,
 				A3DE3A642880B3BD00FAEB52 /* Assets.xcassets */,
 				A3DE3A662880B3BD00FAEB52 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3DE3A8D2882A4FC00FAEB52 /* SwiftUIViewExplicit.swift in Sources */,
 				A3DE3A632880B3BB00FAEB52 /* ContentView.swift in Sources */,
+				A32470BB2882B60600FF532E /* SwiftUIGesturesView.swift in Sources */,
 				A3DE3A612880B3BB00FAEB52 /* AnimationsApp.swift in Sources */,
+				A3DE3A8F2882A6EF00FAEB52 /* Tabs.swift in Sources */,
+				A3DE3A8B2882A39800FAEB52 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
