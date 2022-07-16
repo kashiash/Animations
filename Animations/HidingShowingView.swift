@@ -21,7 +21,7 @@ struct HidingShowingView: View {
        Rectangle()
                 .fill(.red)
                 .frame(width: 200, height: 200)
-                .transition(.asymmetric(insertion: .scale, removal: AnyTransition.opacity))
+                .transition(.pivot)
             }
         }
             
